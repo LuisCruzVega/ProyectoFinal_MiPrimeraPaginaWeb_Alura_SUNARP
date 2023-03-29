@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Sunarp</title>
+</head>
+<body>
+    <section id="Navegacion">
+        <div class="nav"></div>
+    </section>
+    <section id="ContendedorLogo">
+        <div class="containerLogo">
+            <br><br>
+            <img src="./img/logo-sunarp.png" id="LogoSunarp" alt="Logo de la Sunarp" width="148">
+            <br><br>
+        </div>
+    </section>
+    <section id="Formulario">
+        <form action="">
+            <h1>Consulta de Propiedad</h1>
+            <label for="" class="PrimeraFila">Tipo de documento
+                <select name="" id="" class="PrimeraFila">
+                    <option value="">Seleccionar</option>
+                    <option value="01">DNI</option>
+                    <option value="02">CE</option>
+                </select>
+            </label>
+            <label for="" id="F_emision" class="PrimeraFila">Fecha de emision
+                <input type="date" name="" id="fechaEmision" class="PrimeraFila">
+            </label>
+            <label for="" id="Documento" class="PrimeraFila">Nro. documento
+                <input type="number" name="" id="N_Document" placeholder="00000000" class="PrimeraFila">
+            </label>
+            <label for="" id="reCapcha" class="PrimeraFila">Captcha
+                <input type="checkbox" name="" id="checkBox">
+                <br>
+                <p class="noRobot">No soy un robot</p>
+            </label>
+            <div id="containerReCaptcha">
+                <div class="imgCheckbox">
+                    <img src="./img/logo_48.png" alt="img del reCaptcha" width="30" id="logoCaptcha">
+                    <br>
+                    <p class="textReCaptcha">reCAPTCHA</p>
+                    <br>
+                    <p class="termsAndConditions">
+                        <a href="">Terminos</a> - <a href="">Condiciones</a>
+                    </p>
+                </div>
+            </div>
+            <input type="submit" value="Realizar Busqueda" id="performSearch">
+            <div id="Notas">
+                <h4>Notas:</h4>
+                <br>
+                <p>* La búsqueda se realiza con el nombre exacto del propietario, información que se obtiene a través de la interconexión con el RENIEC (DNI) o la Superintendencia Nacional de Migraciones (carnet de extranjería).</p>
+                <p>* La búsqueda proporciona información referencial e informativa sobre el número de la partida del predio cuando el titular inscrito sea una persona natural.</p>
+                <p>* Si el nombre del titular que consta en la partida registral del predio no coincide exactamente con el que consta en el DNI o Carnet de Extranjería la búsqueda no reportará el número de la partida registral. En este caso, se sugiere revisar la respectiva partida a través del Servicio de Publicidad y de corresponder, solicitar la rectificación de nombre.</p>
+                <p>* La indicación del número de documento y su fecha de emisión, permiten determinar la identidad del solicitante del servicio y facilitar el llenado de sus datos; sin embargo, la búsqueda para determinar las partidas a nombre del propietario que formula la consulta, se efectúa en función a sus nombres y apellidos y no en función al número del DNI o CE, por lo que los resultados pueden arrojar casos de homonimia.</p>
+            </div>
+        </form>
+    </section>
+    <section id="Footer">
+        <hr>
+        <div id="PrimeraColumna" class="PrimerFila">
+            <p>Sede Central:</p>
+            <p>Av. Primavera N° 1878, Santiago de Surco, Lima 33 - Perú</p>
+            <p>Central telefónica (051) 208-3100</p>
+            <p>(Oficina administrativa en la cual no se realiza ningún trámite de publicidad registral y/o inscripción de títulos)</p>
+        </div>
+        <div id="SegundaColumna" class="PrimerFila">
+            <P>Mayor información ALÓ Sunarp (línea gratuita): 0800-27164</P>
+            <P>consultas@sunarp.gob.pe</P>
+        </div>
+    </section>
+</body>
+</html>
